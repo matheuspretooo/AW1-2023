@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginadeTransições</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <header class="header">
+        <div class="divheader">
+            <div class="divimg">
+                <img
+                src="bramblelogo.jpg"
+                alt="Logo"
+                width="250"
+                height="150">
+            </div>
+            <div class="divtitulo">
+                <h1 class="titulo">Bramble the Mountain King</h1>
+                <h3 class="titulo">O melhor jogo de 2023</h3>
+                <input/>
+                <button type="submit" class="botaoheader">Pesquisar </button>
+            </div> 
+        </div>
+        <hr class="hr"> </hr>
+    </header>
+    <main>
+        <div class="borda">
+            <div class="principal">
+                <h3>A combinação entre plataforma, terror e furtividade empolga e assusta ao mesmo tempo neste título de fantasia.</h3>
+                <p>A região nórdica, que engloba os países do Norte da Europa (Dinamarca, Noruega, Suécia, Finlândia e Islândia), é mundialmente conhecida, entre outras coisas, por seu rico folclore recheado de criaturas mitológicas, com origens e histórias fascinantes enraizadas no imaginário popular.</p>
+            </div>
+            <div class="principal">
+                <p>Obras baseadas nessa temática nunca estiveram em falta, e os games fazem parte dessa oferta massiva, com <b>Bramble: The Mountain King</b> sendo um dos exemplares mais recentes. Desenvolvida pelo Dimfrost Studio e publicada pela Merge Games, esta aventura fantástica pinta um retrato magnífico de parte da cultura nórdica e mostra claras inspirações de game design em excelentes obras de terror.</p>
+                <div class="imagemteste">
+                    <img
+                    src="bramble the mountain king enforcamento.jpg"
+                    alt="imagem de cenario"
+                    class="imagem"
+                    />
+                    <img
+                    src="bramble the mountain king gnomos.jpg"
+                    alt="imagem de cenario"
+                    class="imagem2"
+                    />
+                    <img
+                    src="bramble the mountain king cenários.jpg"
+                    alt="imagem de cenario"
+                    class="imagem3"
+                    />
+                </div>
+            </div>
+            <div class="principal">
+                <p>Bramble the Mountian King também obteve uma das melhores notas no metacritic de 2023:</p>
+            </div>
+
+            <table >
+                <thead>
+                    <tr>
+                        <th>Empresas</th>
+                        <th>Nota Crítica</th>
+                        <th>Nível da Review</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Noisy Pixel</td>
+                        <td>90</td>
+                        <td class="positivo">Positiva</td>
+                    </tr>
+                    <tr>
+                        <td>Shacknews</td>
+                        <td>80</td>
+                        <td class="positivo">Positiva</td>
+                    </tr>
+                    <tr>
+                        <td>TheGamer</td>
+                        <td>80</td>
+                        <td class="positivo">Positiva</td>
+                    </tr>
+                    <tr>
+                        <td>CheckpointGames</td>
+                        <td>75</td>
+                        <td class="positivo">Positiva</td>
+                    </tr>
+                    <tr>
+                        <td>GamingBolt</td>
+                        <td>70</td>
+                        <td class="mediana">Mediana</td>
+                    </tr>
+                    <tr>
+                        <td>PC Gamer</td>
+                        <td>68</td>
+                        <td class="mediana">Mediana</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td> <strong>Média</strong></td>
+                        <td>76</td>
+                        <td class="positivo">Positiva</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="principal">
+                <h3>Como fazer sua crítica</h3>
+                <p>Para os usuários, as críticas funcionam de uma forma mais simples, você necessita estar logado a sua conta da <b>Steam</b> para poder avaliar, depois precisa apenas selecionar sua nota de 1 à 10 e descrever o porque daquela nota, como no exemplo a seguir:</p>
+            </div>
+            <form>
+                <fieldset>
+                    <legend> Formulário para crítica</legend>
+                    <fieldset>
+                        <label for="nome"> Nome da Steam:</label>
+                        <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        />
+                        <br/><br/>
+                        <label for="email">E-mail</label>
+                        <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        />
+                        <br/> <br/>
+                        <label for="nota"> Nota:</label>
+                        <select id="nota" name="nota">
+                            <option value="vazio"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <br/><br/>
+                        <fieldset>
+                            <legend>Review Crítica</legend>
+                            <textarea id="descricao" rows="5" cols="35" placeholder="Descreva sua análise crítica de Bramble the Mountain King"></textarea>
+                        </fieldset>
+                        <br/>
+                        <button type="submit" class="botaoenviar"> Enviar</button>
+                    </fieldset>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <br/>
+            Desenvolvido no 
+            <a href="https://spo.ifsp.edu.br/" class="link">
+                Instituto Federal de São Paulo
+            </a>
+        </div>
+        <div>
+            por Matheus Preto
+        </div>
+        <br/>
+        <div>
+            Link para meu 
+        <a href="https://www.github.com/matheuspretooo" class="link">
+            GitHub
+        </a>
+        </div>
+        <p>&copy 2023</p>
+    </footer>
+</body>
+</html>
+

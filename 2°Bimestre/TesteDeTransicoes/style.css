@@ -1,0 +1,160 @@
+header {
+    background: rgb(211, 219, 219);
+    background: linear-gradient(
+        to bottom,
+        rgb(211,219,219),
+        darkgrey
+    );
+}
+
+.botaoheader {
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    position: relative;
+}
+
+.botaoheader::before {
+    content: '';
+    position: absolute;
+    background: white;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s ease;
+}
+
+.botaoheader:hover::before {
+    width: 100%;
+}
+
+.botaoenviar {
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.botaoenviar::before {
+    content: '';
+    position: absolute;
+    background: blue;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .5s ease;
+}
+
+.botaoenviar:hover::before {
+    width: 100%;
+}
+
+body
+{
+    margin: 0;
+    background: darkgrey;
+    background: linear-gradient(to bottom, darkgrey,rgb(64, 66, 66));
+}
+
+.divheader {
+    display: flex;
+    vertical-align: middle;
+}
+
+.divimg {
+    display: inline-block;
+}
+
+.divtitulo {
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: bottom;
+}
+
+.titulo {
+    color: black;
+}
+
+.hr {
+    border-width: 3px;
+    color: black;
+}
+
+.principal {
+    margin-left: 20px;
+}
+
+.borda {
+    width: 80%;
+    border: solid transparent;
+    border-image: linear-gradient(to bottom, #444447, #706F75) 1;
+}
+
+.imagemteste {
+    width: 25%;
+}
+
+.imagem:hover { 
+    transform: scale(1.2);
+}
+
+.imagem2:hover {
+    transform: scale(0.8);
+}
+
+.imagem3:hover {
+    transform: rotate(-20deg);
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+th {
+    border: 1px solid black;
+}
+
+  
+.link {
+    color: black;
+}
+
+footer {     
+    background: rgb(64, 66, 66);
+    background: linear-gradient(
+        to bottom,
+        rgb(64, 66, 66),
+        rgb(38, 39, 39)
+    ); 
+    text-align: center;
+}
+
+.positivo:hover {
+    background: green;
+}
+
+.mediana:hover {
+    background: orangered;
+}
+
+
+
+/*
+3 transformações
+4 gradientes x
+5 transições 4
+*/
