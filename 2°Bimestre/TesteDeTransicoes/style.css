@@ -24,11 +24,11 @@ header {
     top: 0;
     left: 0;
     z-index: -1;
-    transition: all .4s ease;
+    transition: all .4s ease; 
 }
 
 .botaoheader:hover::before {
-    width: 100%;
+    width: 100% ;
 }
 
 .botaoenviar {
@@ -97,20 +97,23 @@ body
     border-image: linear-gradient(to bottom, #444447, #706F75) 1;
 }
 
-.imagemteste {
+.divimagem {
     width: 25%;
 }
 
 .imagem:hover { 
-    transform: scale(1.2);
+    transform: rotate(-20deg);
+    transition: all .2s ease;;
 }
 
 .imagem2:hover {
     transform: scale(0.8);
+    transition: all .4s ease;
 }
 
 .imagem3:hover {
-    transform: rotate(-20deg);
+    transform: scale(1.2);
+    transition: all .2s ease-out;
 }
 
 table {
